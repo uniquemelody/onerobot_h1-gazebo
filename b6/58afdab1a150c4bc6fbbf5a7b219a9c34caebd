@@ -1,0 +1,19 @@
+docs/superpowers/plans/2026-08-31-onerobotics-a1-gazebo.md
+  s_ef7452d333de59::t_e7e2579250837e 300-301,363-367
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "b658afdab1a150c4bc6fbbf5a7b219a9c34caebd",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
