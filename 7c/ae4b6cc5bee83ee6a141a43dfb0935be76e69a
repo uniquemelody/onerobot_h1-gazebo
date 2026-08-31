@@ -1,0 +1,50 @@
+gazebo/onerobotics_a1_gazebo/harmonic.py
+  s_ef7452d333de59::t_be61af246ce4d9 1-13,15-38,64-84,86-87,91-159,167-232,236-245,248-252,254-255,257-261,273-289
+  s_ef7452d333de59::t_547b4d8b99b9ed 166
+  s_ef7452d333de59::t_f22195f80fbe6a 233-235
+  s_ef7452d333de59::t_fa00211f986eec 14,39-63,160-161,163-165,247,253,256,262-272
+  s_ef7452d333de59::t_ff0d8ed6c5bf2a 85,88-90,162,246
+gazebo/tests/test_harmonic_sdf.py
+  s_ef7452d333de59::t_9e2f50bde9faaf 15,165-176,178,180-191,220
+  s_ef7452d333de59::t_730ef07bbe47da 1-3,5-14,16-92,98-100,102-117,119,126,128-129,133-137,139-153,177,179,192-219,221-263
+  s_ef7452d333de59::t_f5135c8f421f40 4,93-97,101,118,120-125,127,130-132,138,154-164
+gazebo/environment-harmonic.yml
+  s_ef7452d333de59::t_be61af246ce4d9 1-9
+gazebo/scripts/check_harmonic.sh
+  s_ef7452d333de59::t_fa00211f986eec 32-47
+  s_ef7452d333de59::t_be61af246ce4d9 1-31,48-68,70-110,114-116
+  s_ef7452d333de59::t_ff0d8ed6c5bf2a 69,111-113
+gazebo/scripts/install_harmonic_conda.sh
+  s_ef7452d333de59::t_ff0d8ed6c5bf2a 30-33,110-112
+  s_ef7452d333de59::t_c9327b56a07e0d 68,73
+  s_ef7452d333de59::t_be61af246ce4d9 1-29,34-67,69-72,74-93,95-109,113-137,139-140,142-160
+  s_ef7452d333de59::t_fa00211f986eec 94,138,141
+gazebo/scripts/harmonic_env.sh
+  s_ef7452d333de59::t_be61af246ce4d9 1-7,17-47,49-51
+  s_ef7452d333de59::t_fa00211f986eec 8-16,48
+gazebo/tests/test_cli_scripts.py
+  s_ef7452d333de59::t_f5135c8f421f40 79-83,310,523,533-555,557
+  s_ef7452d333de59::t_c9327b56a07e0d 118-120,125-127
+  s_ef7452d333de59::t_ff0d8ed6c5bf2a 64-67
+  s_ef7452d333de59::t_eae5489852bda3 68-73,460-464,469-475
+  s_ef7452d333de59::t_f81d83dc695084 105-113,311-314,316-320,447,528
+  s_ef7452d333de59::t_730ef07bbe47da 1-45,51-63,74-78,84-104,114-117,121-124,128-254,256-269,271-309,315,321-379,397,401,403-446,448-459,465,467-468,476,506-521,524-527,529-532,556,558-565
+  s_ef7452d333de59::t_64a87d8d473216 522
+  s_ef7452d333de59::t_9e2f50bde9faaf 46-50,255,270,380-396,398-400,402,466,477-505
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "7cae4b6cc5bee83ee6a141a43dfb0935be76e69a",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
