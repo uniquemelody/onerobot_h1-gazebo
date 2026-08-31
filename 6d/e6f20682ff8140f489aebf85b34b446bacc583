@@ -1,0 +1,46 @@
+gazebo/tests/test_validation.py
+  s_ef7452d333de59::t_b7ebe93f7e9fcc 5,9,502-525
+  s_ef7452d333de59::t_a8761727a88d17 485-488
+  s_ef7452d333de59::t_da23365ff1ee98 659,683
+  s_ef7452d333de59::t_9547333b6c2d67 686,696
+  s_ef7452d333de59::t_e0e4fed51e3b04 699-714
+  s_ef7452d333de59::t_6318a8dc680754 3,244-260,653-658,660-682,684-685,687-695
+  s_ef7452d333de59::t_928516e1de4b4e 526-527
+  s_ef7452d333de59::t_d2ba9a4cc8c00d 697-698
+gazebo/onerobotics_a1_gazebo/validation_snapshot.py
+  s_ef7452d333de59::t_a8761727a88d17 175-176,179-184,190-192,194
+  s_ef7452d333de59::t_8390a740300065 18,120,123,125,128-129,132-135,254-257,266,273-279
+  s_ef7452d333de59::t_e5676e81c8c735 19-28,37,44-62,83-104,116-119,121,124,126-127,130-131,136-138,177,186-187,204-205,213,217-234,318-319,322,325,334-335,338-343,345-349
+  s_ef7452d333de59::t_ea5e95acf2554e 245-246,252-253,316-317,352-353
+gazebo/tests/test_validation_snapshot.py
+  s_ef7452d333de59::t_e0246039f3fa7f 3,32-48,52-67,72-74,77,80,87-92,94-145,151-157
+  s_ef7452d333de59::t_e0e4fed51e3b04 68-71,78-79,81-86,93,146
+  s_ef7452d333de59::t_da23365ff1ee98 75-76
+  s_ef7452d333de59::t_861fa7be13cd03 49-51,147-150
+  s_ef7452d333de59::t_2a80849a6f94ba 158-159
+gazebo/onerobotics_a1_gazebo/validate.py
+  s_ef7452d333de59::t_1ee7e594ed4794 111,136-137,158,165-168,185-186,537-539,984,1041-1042,1044
+  s_ef7452d333de59::t_0a7a2d150efd91 359-374,456-457
+  s_ef7452d333de59::t_06487fa47ccc3a 77,845-854
+  s_ef7452d333de59::t_0e99a34e28b1d9 169-174
+  s_ef7452d333de59::t_6395d4f33a702a 464
+  s_ef7452d333de59::t_dedf82bc19e4b0 159-161,455,869,1043
+  s_ef7452d333de59::t_8390a740300065 76,868,870-871,873-877,894,958-959,961
+  s_ef7452d333de59::t_a1de59b8cbd9d1 162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "6de6f20682ff8140f489aebf85b34b446bacc583",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
