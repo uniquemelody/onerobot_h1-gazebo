@@ -1,0 +1,21 @@
+gazebo/onerobotics_a1_gazebo/source_lock.py
+  s_ef7452d333de59::t_438700b9c610b3 65
+gazebo/onerobotics_a1_gazebo/spec.py
+  s_ef7452d333de59::t_a0060b32bd5246 266
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "0566a0c3c5ace2670583f27afcfa4b663f465c13",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
