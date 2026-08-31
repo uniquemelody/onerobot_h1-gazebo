@@ -1,0 +1,39 @@
+gazebo/tests/test_cli_scripts.py
+  s_ef7452d333de59::t_0a9727e16a6070 376-377,566,661-662
+  s_ef7452d333de59::t_75419ba2d500ba 78-81
+  s_ef7452d333de59::t_515b9176f86682 446
+  s_ef7452d333de59::t_df54a63d62ce33 550-552,564,567,593,595-596,598,600
+  s_ef7452d333de59::t_61c7fdb2171873 634-660,663-665
+  s_ef7452d333de59::t_02f202468ce3ee 320,335,485,493,502
+  s_ef7452d333de59::t_4b60dc7777e31b 82-88,387-407
+  s_ef7452d333de59::t_0bff7da612e459 57-61,64-72
+  s_ef7452d333de59::t_d6d4766ca3effd 196-200,208-209,229-256
+  s_ef7452d333de59::t_360e7bdbf8d7ed 23-29,35-37
+  s_ef7452d333de59::t_05f86fa504ce8c 351-375,378-386,408-445,447-467
+  s_ef7452d333de59::t_547f588d09d32c 676-680,682-684,697
+  s_ef7452d333de59::t_cfc6af3fb4e19b 156-162,167-172,176
+gazebo/scripts/harmonic_env.sh
+  s_ef7452d333de59::t_429dd596843ded 7-9,85-87,90-91,93-124,126-132,138-165
+  s_ef7452d333de59::t_35b4f992559fac 49-84,88-89,125,133-137
+gazebo/scripts/check_harmonic.sh
+  s_ef7452d333de59::t_dd80491bc39164 64-68
+gazebo/scripts/install_harmonic_conda.sh
+  s_ef7452d333de59::t_e91847b4da2aab 15-26,151,156
+  s_ef7452d333de59::t_01896d5d5d83a8 107-111,135,150,153-154,158-159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "8c91bc824139f9e1c33e643842c0e3d0b3d6e9f8",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
