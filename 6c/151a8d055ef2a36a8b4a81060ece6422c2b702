@@ -1,0 +1,29 @@
+gazebo/tests/test_cli_scripts.py
+  s_ef7452d333de59::t_23f0d1c6cef15a 421,423-436,440-442
+  s_ef7452d333de59::t_7fb66c4c6e0ea8 456,534,616,684,686,759-760,817
+  s_ef7452d333de59::t_bfaf97badaf6df 53-57,418-420,422,437-439
+  s_ef7452d333de59::t_47ada20da51785 120-121,123,125,134,144,149-151,185,188-190,196,199-200
+  s_ef7452d333de59::t_2c1e9f528770fb 30,34-52,64,67-68,71-74,76,88,94,96,100,104-108
+  s_ef7452d333de59::t_6e23cd079816d8 222-226,255-257
+  s_ef7452d333de59::t_f51871b2c6ef53 227-240,399,702-703
+gazebo/scripts/harmonic_env.sh
+  s_ef7452d333de59::t_96f5b722ac91db 155-170,172-174,177-189
+gazebo/scripts/install_harmonic_conda.sh
+  s_ef7452d333de59::t_32732a1f92470a 150,154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "6c151a8d055ef2a36a8b4a81060ece6422c2b702",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
