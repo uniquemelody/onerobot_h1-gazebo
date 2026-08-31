@@ -1,0 +1,41 @@
+gazebo/pyproject.toml
+  s_ef7452d333de59::t_1245f7484468f8 1-9,14-22
+  s_ef7452d333de59::t_54bba91608dceb 10-13
+gazebo/tests/test_source_lock.py
+  s_ef7452d333de59::t_cd18454f26999e 4
+  s_ef7452d333de59::t_1245f7484468f8 1-3,5-26
+gazebo/config/models.yaml
+  s_ef7452d333de59::t_b736acf946048e 1-34
+gazebo/onerobotics_a1_gazebo/__init__.py
+  s_ef7452d333de59::t_b736acf946048e 1-10
+gazebo/onerobotics_a1_gazebo/spec.py
+  s_ef7452d333de59::t_b736acf946048e 1-6,9-63,72-136,138-190
+  s_ef7452d333de59::t_cd18454f26999e 7-8
+  s_ef7452d333de59::t_5550befb285c78 64-71,137
+gazebo/onerobotics_a1_gazebo/source_lock.py
+  s_ef7452d333de59::t_b736acf946048e 1-7,9-10,12-33,35-36,39-47,49-67,69-91,96-105,107-108,110-114
+  s_ef7452d333de59::t_f235488b47240f 8,11,34,48,68,106,109
+  s_ef7452d333de59::t_cd18454f26999e 37-38,92-95
+gazebo/tests/test_spec.py
+  s_ef7452d333de59::t_1245f7484468f8 1-26
+gazebo/generated-manifest.json
+  s_ef7452d333de59::t_b32a1365c49ea4 1-46
+gazebo/uv.lock
+  s_ef7452d333de59::t_31ae264762c929 1-254
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "cb1fc05a8c49399f771d02b2ef15c1562c7ed962",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
