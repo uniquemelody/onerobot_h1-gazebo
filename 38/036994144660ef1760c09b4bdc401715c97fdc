@@ -1,0 +1,20 @@
+docs/superpowers/specs/2026-08-31-onerobotics-a1-gazebo-design.md
+  s_ef7452d333de59::t_f042ec10bc6045 1-76,78-118,123-126,131-299
+  s_ef7452d333de59::t_841bc9d0d19c6c 77,119-122,127-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "38036994144660ef1760c09b4bdc401715c97fdc",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
