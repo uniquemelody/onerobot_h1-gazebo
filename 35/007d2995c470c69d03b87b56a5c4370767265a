@@ -1,0 +1,21 @@
+gazebo/tests/test_cli_scripts.py
+  s_ef7452d333de59::t_5b8c23e24c630f 634-660
+gazebo/scripts/harmonic_env.sh
+  s_ef7452d333de59::t_118213716528a6 171
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "35007d2995c470c69d03b87b56a5c4370767265a",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
