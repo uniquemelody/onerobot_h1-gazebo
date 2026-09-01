@@ -1,0 +1,28 @@
+gazebo/tests/test_documentation.py
+  s_ef7452d333de59::t_fdd27e16d7f6b6 8,18-23,26-30,55,60,81,86-87,94,96-102,105,107-111,115,142,155,180,197,218,233,244,256,265,280,298,312,329,353,366-367,384-392
+  s_ef7452d333de59::t_0038fae2e2e0be 64
+gazebo/README.md
+  s_ef7452d333de59::t_e28c04184c0cbf 52
+  s_ef7452d333de59::t_3fcf996dc51d50 63-64,68
+  s_ef7452d333de59::t_588bb8ac51463a 1-5,7,9,11,13-15,17,19,23,25,31,33,35,39-40,43,45-48,50,54,56,60,65,70,72-76,78
+README.md
+  s_ef7452d333de59::t_fd3779881f8b76 23-27
+gazebo/PUBLISHING.md
+  s_ef7452d333de59::t_3d008de9a30f34 1-401
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "fd95676ae4f29dba38a0dbf6250ec5910cfa0ae7",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
