@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-09-01-beginner-gazebo-launcher-design.md
+  s_ef7452d333de59::t_5b277ec45b87d1 1-142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "498b679455fbd53e3c851d700f8e5c2475c50202",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
