@@ -1,0 +1,26 @@
+gazebo/tests/test_demo.py
+  s_ef7452d333de59::t_b8a2da76e01b5e 307-316,333,356-357
+  s_ef7452d333de59::t_23183a1bfb5438 327-328
+gazebo/onerobotics_a1_gazebo/demo.py
+  s_ef7452d333de59::t_f411be9757fee8 53,1515,1520,1554,1570
+gazebo/tests/test_runtime.py
+  s_ef7452d333de59::t_9f89112db946f2 1925,2001,2011
+  s_ef7452d333de59::t_ea0d557adfb22c 20,2043
+  s_ef7452d333de59::t_f76b7e5f7ab146 633-634
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "9c6ca2b21904c2bb84d59d12fa578f5f375762d3",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
