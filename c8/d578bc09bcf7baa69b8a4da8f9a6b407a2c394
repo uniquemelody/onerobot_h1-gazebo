@@ -1,0 +1,22 @@
+gazebo/tests/test_runtime.py
+  s_ef7452d333de59::t_f63a7bec811319 1925,1929-1966
+  s_ef7452d333de59::t_8741ea252458d5 1967-1968
+gazebo/onerobotics_a1_gazebo/demo.py
+  s_ef7452d333de59::t_3cfe2fc175f292 1481
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "c8d578bc09bcf7baa69b8a4da8f9a6b407a2c394",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
