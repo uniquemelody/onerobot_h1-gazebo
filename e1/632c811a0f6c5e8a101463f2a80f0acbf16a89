@@ -1,0 +1,25 @@
+gazebo/tests/test_open_demo.py
+  s_ef7452d333de59::t_2e0bebb1441fe0 180-189
+  s_ef7452d333de59::t_80a6dfea285193 179,190-191
+  s_ef7452d333de59::t_403962927f509a 1-178,192-239
+gazebo/tests/test_cli_scripts.py
+  s_ef7452d333de59::t_403962927f509a 19-20
+gazebo/scripts/open_demo.sh
+  s_ef7452d333de59::t_1bb868c345fb4b 1-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "e1632c811a0f6c5e8a101463f2a80f0acbf16a89",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
