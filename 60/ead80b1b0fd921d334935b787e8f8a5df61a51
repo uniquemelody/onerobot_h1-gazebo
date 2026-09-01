@@ -1,0 +1,20 @@
+docs/superpowers/plans/2026-09-01-beginner-gazebo-launcher.md
+  s_ef7452d333de59::t_61d49a61a668d8 1-32,37-164,170-172,174,176-402,404-502
+  s_ef7452d333de59::t_5e013a8b680c8b 33-36,165-169,173,175,403
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "60ead80b1b0fd921d334935b787e8f8a5df61a51",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
