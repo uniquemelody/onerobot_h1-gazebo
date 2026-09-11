@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include ASSET_LICENSE_STATUS.md
+include THIRD_PARTY_NOTICES.md
+include config/extension.toml
+recursive-include LICENSES *.txt
+recursive-include h1_reach/assets *

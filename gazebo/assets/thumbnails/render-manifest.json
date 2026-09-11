@@ -1,0 +1,32 @@
+{
+  "backend": "software",
+  "models": [
+    {
+      "file": "onerobotics_a1_right_arm.png",
+      "height": 512,
+      "model_sdf_sha256": "a532e2e96b321ef1ca4dd33b2a19ee6b441e6d0abe52aacea2e09b7eef989b2a",
+      "png_sha256": "09733dd5afe59c2a0554b235ff6119af797f4c7197ac777040e9e002eb4c9e3c",
+      "slug": "onerobotics_a1_right_arm",
+      "width": 512
+    },
+    {
+      "file": "onerobotics_a1_left_arm.png",
+      "height": 512,
+      "model_sdf_sha256": "58b5b71e46751b93ad8d99d3efade95f47d5976475fc53f2e0d68773fb7c18ee",
+      "png_sha256": "120b6ff5540509c26a2979dace817f6bb138e4a08e0a78935092114d5ac390c7",
+      "slug": "onerobotics_a1_left_arm",
+      "width": 512
+    },
+    {
+      "file": "onerobotics_a1_bimanual_stand.png",
+      "height": 512,
+      "model_sdf_sha256": "c893d280b228fc947034afa9f623df6af0fd339141355daab7c2a1c7ed2c1274",
+      "png_sha256": "324f7415e37f51d0f92537f469d926197e40a24448e42ca642178c039aa0ad50",
+      "slug": "onerobotics_a1_bimanual_stand",
+      "width": 512
+    }
+  ],
+  "render_config_sha256": "2a495e716b35e5ccfbf44b53af26f1848c27b416fbb459c5870bae58ae739f59",
+  "render_engine": "ogre2",
+  "schema_version": 1
+}

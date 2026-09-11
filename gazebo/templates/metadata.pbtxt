@@ -1,0 +1,19 @@
+name: "$display_name"
+description: "$description"
+authors {
+  name: "OneRobotics"
+}
+tags: "robot"
+tags: "manipulator"
+tags: "onerobotics"
+model {
+  file: "model.sdf"
+  file_format {
+    version { major: 1 minor: 11 }
+    name: "sdf"
+  }
+}
+legal {
+  copyright: "Copyright © 2026 OneRobotics"
+  license: "Creative Commons Attribution 4.0 International"
+}

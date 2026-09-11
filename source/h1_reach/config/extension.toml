@@ -1,0 +1,23 @@
+[package]
+
+# Semantic Versioning is used: https://semver.org/
+version = "0.1.0"
+
+# Description
+category = "isaaclab"
+readme = "../../README.md"
+
+title = "OneRobotics A1 Isaac Lab Integration"
+author = "OneRobotics"
+maintainer = "OneRobotics"
+description = "Isaac Lab articulation configuration and reach task for the OneRobotics A1 7-DoF robotic arm."
+repository = "https://github.com/katazen/onerobot_h1"
+keywords = ["isaaclab", "robot-arm", "manipulation", "onerobotics", "a1"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "h1_reach"

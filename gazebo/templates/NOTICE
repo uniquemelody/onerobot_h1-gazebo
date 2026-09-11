@@ -1,0 +1,21 @@
+$display_name
+
+Copyright © 2026 OneRobotics
+
+Licensed under the Creative Commons Attribution 4.0 International license
+(CC BY 4.0). The complete license text is provided in LICENSE.
+
+Source: https://github.com/katazen/onerobot_h1
+Source commit: ecf530911284ba0e559f7a24dc222fd8e60d31ed
+
+Changes: Converted the published URDF description to native SDFormat 1.11;
+anchored the fixed-base mechanism to the SDF world frame; rewrote mesh paths
+for a self-contained Fuel package; overlaid the published peak effort and rated
+velocity limits from model_parameters.yaml. Geometry, mass, inertia, joint
+poses, axes, and position limits were not changed.
+
+This package performs a URDF-to-SDF conversion of the published source.
+$exporter_attribution
+
+Redistribution does not imply endorsement by OneRobotics, Isaac Lab, NVIDIA,
+Gazebo, or Open Robotics.

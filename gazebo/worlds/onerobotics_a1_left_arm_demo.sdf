@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.11">
+    <world name="a1_demo">
+        <gravity>0 0 -9.8</gravity>
+        <physics name="one_millisecond" type="ignored">
+            <max_step_size>0.001</max_step_size>
+            <real_time_update_rate>1000</real_time_update_rate>
+        </physics>
+        <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics">
+            <engine>
+                <filename>gz-physics-dartsim-plugin</filename>
+            </engine>
+        </plugin>
+        <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands" />
+        <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster" />
+        <model name="ground_plane">
+            <static>true</static>
+            <pose>0 0 -0.025 0 0 0</pose>
+            <link name="ground_link">
+                <collision name="ground_collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                </collision>
+                <visual name="ground_visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0.8 0.8 0.8 1</ambient>
+                        <diffuse>0.8 0.8 0.8 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <light name="sun" type="directional">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <attenuation>
+                <range>1000</range>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+        <include>
+            <uri>model://onerobotics_a1_left_arm</uri>
+            <name>onerobotics_a1_left_arm</name>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint1-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint1-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint2-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint2-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint3-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint3-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint4-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint4-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint5-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint5-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint6-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint6-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+                <joint_name>joint7-a1_l</joint_name>
+                <joint_index>0</joint_index>
+                <topic>/a1_demo/onerobotics_a1_left_arm/joint7-a1_l/cmd_pos</topic>
+                <use_velocity_commands>true</use_velocity_commands>
+                <cmd_max>0.1</cmd_max>
+                <cmd_min>-0.1</cmd_min>
+                <initial_position>0</initial_position>
+            </plugin>
+            <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+                <joint_name>joint1-a1_l</joint_name>
+                <joint_name>joint2-a1_l</joint_name>
+                <joint_name>joint3-a1_l</joint_name>
+                <joint_name>joint4-a1_l</joint_name>
+                <joint_name>joint5-a1_l</joint_name>
+                <joint_name>joint6-a1_l</joint_name>
+                <joint_name>joint7-a1_l</joint_name>
+            </plugin>
+        </include>
+    </world>
+</sdf>

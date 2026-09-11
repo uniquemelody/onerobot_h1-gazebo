@@ -1,0 +1,9 @@
+name: onerobotics-a1-gz-harmonic
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - gz-tools2=2.*
+  - gz-sim8=8.*
+  - gz-fuel-tools9=9.*
+  - libsdformat14=14.*
