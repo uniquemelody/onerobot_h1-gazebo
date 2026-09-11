@@ -1,0 +1,31 @@
+gazebo/onerobotics_a1_gazebo/sdf.py
+  s_ef7452d333de59::t_f8d9d5963aa536 118,441-442,493-494
+  s_ef7452d333de59::t_3714d4b4e1497a 23-26,34-117,119-127,129-134
+  s_ef7452d333de59::t_606127011832ab 443-465,481,495,642,644
+  s_ef7452d333de59::t_8621541b8455d3 128
+  s_ef7452d333de59::t_4c4cc8dc8f0f59 135-136
+gazebo/tests/test_validation.py
+  s_ef7452d333de59::t_854702e35631bc 542-545
+gazebo/assets/thumbnails/render-manifest.json
+  s_ef7452d333de59::t_b0fdbfafc9cef3 7,15,23
+gazebo/tests/test_sdf_conversion.py
+  s_ef7452d333de59::t_1bd9356922ce45 40-91,159-170
+  s_ef7452d333de59::t_f9b5ada4d0f3d1 1,136-148,154-158
+  s_ef7452d333de59::t_a871f5fd9c2b85 135,393
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "60f214fa92288d682ad424de3f4bc68946c7aa8e",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
