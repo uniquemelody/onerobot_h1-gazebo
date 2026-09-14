@@ -1,0 +1,21 @@
+docs/superpowers/specs/2026-09-14-gazebo-repository-rename-design.md
+  s_ef7452d333de59::t_bda14a17669662 1-47
+docs/superpowers/plans/2026-09-14-gazebo-repository-rename.md
+  s_ef7452d333de59::t_bda14a17669662 1-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "90bdf1b0fadac5378196e2ef8452e91de18f9231",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "uniquemelody <200471066+uniquemelody@users.noreply.github.com>"
+    }
+  }
+}
