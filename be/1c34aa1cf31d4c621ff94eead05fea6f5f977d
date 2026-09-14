@@ -1,0 +1,23 @@
+gazebo/README.md
+  s_ef7452d333de59::t_139e7366bc8dc7 11,13-15,23,39,59,77
+gazebo/tests/test_documentation.py
+  s_ef7452d333de59::t_d85c50908effd5 24,27-33,37-40,56,61-62,99,103,114
+README.md
+  s_ef7452d333de59::t_139e7366bc8dc7 1,3-5,7,9,12-14,17,19,21,24,27,29-32,34-39,42-43,46-49,51-52,54-56,58-59,61,63-68,70-72,74,76-78,80-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "be1c34aa1cf31d4c621ff94eead05fea6f5f977d",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "uniquemelody <200471066+uniquemelody@users.noreply.github.com>"
+    }
+  }
+}
