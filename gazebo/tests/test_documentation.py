@@ -21,14 +21,23 @@ def _publishing() -> str:
     return PUBLISHING.read_text(encoding="utf-8")
 
 
-def test_root_readme_links_to_beginner_and_authorized_maintainer_guides() -> None:
+def test_root_readme_is_a_gazebo_first_beginner_entry_point() -> None:
     text = ROOT_README.read_text(encoding="utf-8")
 
-    beginner = "[Gazebo beginner viewing guide](gazebo/README.md)"
-    publishing = "[authorized maintainer publication guide](gazebo/PUBLISHING.md)"
+    beginner = "[Gazebo 详细使用教程](gazebo/README.md)"
+    publishing = "[Fuel 发布记录与维护说明](gazebo/PUBLISHING.md)"
+    launcher = 'bash "$HOME/桌面/onerobot_h1_gazebo/gazebo/scripts/open_demo.sh"'
+
+    assert text.startswith("# OneRobotics A1 for Gazebo")
+    assert launcher in text
+    assert "右臂" in text and "左臂" in text and "双臂站架" in text
     assert beginner in text
     assert publishing in text
     assert text.index(beginner) < text.index(publishing)
+    assert "Isaac Lab Integration" not in text
+    assert "Start RSL-RL training" not in text
+    assert "scripts/rsl_rl/train.py" not in text
+    assert "MuJoCo sim-to-sim" not in text
 
 
 def test_guide_opens_with_five_plain_language_definitions() -> None:
@@ -44,13 +53,13 @@ def test_guide_opens_with_five_plain_language_definitions() -> None:
     ]
 
 
-def test_guide_is_honest_about_the_public_baseline_and_local_integration_branch() -> None:
+def test_guide_identifies_the_public_source_and_gazebo_repository() -> None:
     text = _guide()
 
     assert "https://github.com/katazen/onerobot_h1.git" in text
     assert SOURCE_COMMIT in text
-    assert "feat/gazebo-harmonic-fuel-assets" in text
-    assert "Gazebo implementation is not on the public origin" in text
+    assert "https://github.com/uniquemelody/onerobot_h1_gazebo" in text
+    assert "Gazebo implementation is not on the public origin" not in text
 
 
 def test_guide_contains_copy_paste_setup_and_validation_commands() -> None:
@@ -87,11 +96,11 @@ def test_publication_blocks_source_harmonic_environment_before_using_its_helper(
 
 def test_guide_contains_the_one_launcher_path_and_separate_smoke_test() -> None:
     text = _guide()
-    daily_launcher = 'bash "$HOME/桌面/onerobot_h1-gazebo/gazebo/scripts/open_demo.sh"'
+    daily_launcher = 'bash "$HOME/桌面/onerobot_h1_gazebo/gazebo/scripts/open_demo.sh"'
     required = (
         "/usr/bin/gazebo --version",
         "bash gazebo/scripts/install_harmonic_conda.sh",
-        'cd "$HOME/桌面/onerobot_h1-gazebo"',
+        'cd "$HOME/桌面/onerobot_h1_gazebo"',
         daily_launcher,
         "bash gazebo/scripts/run_smoke_tests.sh",
     )
@@ -102,7 +111,7 @@ def test_guide_contains_the_one_launcher_path_and_separate_smoke_test() -> None:
 
 def test_beginner_guide_has_one_launcher_command_and_no_publication_procedure() -> None:
     text = _guide()
-    daily_launcher = 'bash "$HOME/桌面/onerobot_h1-gazebo/gazebo/scripts/open_demo.sh"'
+    daily_launcher = 'bash "$HOME/桌面/onerobot_h1_gazebo/gazebo/scripts/open_demo.sh"'
     assert text.count(daily_launcher) == 1
     assert "bash gazebo/scripts/open_demo.sh" not in text
     daily_section = text.split("## 日常查看：只用这一条启动路径", 1)[1].split("\n## ", 1)[0]

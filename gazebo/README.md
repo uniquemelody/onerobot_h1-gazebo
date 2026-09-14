@@ -8,11 +8,11 @@ Fuel 是 Gazebo 的在线模型仓库；本地查看或打包都不代表已发�
 
 这页只讲“在本机看模型”。它不要求 Fuel 帐号、令牌或发布权限。组织授权维护者如需审批和发布，请转到完整的 [PUBLISHING.md](PUBLISHING.md)。
 
-## 先分清三个代码位置
+## 先分清代码和模型位置
 
-- 代码 1：[`katazen/onerobot_h1`](https://github.com/katazen/onerobot_h1.git) 保存 A1 source assets 和 vendor-side integrations。锁定的公开输入提交是 `ecf530911284ba0e559f7a24dc222fd8e60d31ed`。
-- 代码 2：`T1Amoo/IsaacLab` 是 IsaacLab 官方上游仓库的个人 fork；其中的 `contrib/onerobotics-a1-reach` branch 是 IsaacLab-repository contribution，不是代码 1 的 branch。
-- 本 Gazebo 工作：代码 1 的本地 `feat/gazebo-harmonic-fuel-assets` feature branch；它未 push，不是 Gazebo / gz-sim 引擎 fork。Gazebo implementation is not on the public origin，所以新克隆的 GitHub 仓库目前没有这条本地分支或其中的 Gazebo 集成。
+- 公开来源：[`katazen/onerobot_h1`](https://github.com/katazen/onerobot_h1.git) 保存 A1 源资产；锁定的输入提交是 `ecf530911284ba0e559f7a24dc222fd8e60d31ed`。
+- Gazebo 仓库：[`uniquemelody/onerobot_h1_gazebo`](https://github.com/uniquemelody/onerobot_h1_gazebo) 保存转换、验证和 Fuel 打包工具。
+- `gazebo/` 是普通用户的入口；仓库中保留的 `source/` 仅用于来源锁定和重复生成资产。
 
 ## 一次性准备
 
@@ -20,7 +20,7 @@ Fuel 是 Gazebo 的在线模型仓库；本地查看或打包都不代表已发�
 
 ~~~bash
 set -euo pipefail
-cd "$HOME/桌面/onerobot_h1-gazebo"
+cd "$HOME/桌面/onerobot_h1_gazebo"
 env -u PYTHONPATH uv sync --project gazebo --locked
 env -u PYTHONPATH uv run --project gazebo python -m onerobotics_a1_gazebo.source_lock --check gazebo/generated-manifest.json
 /usr/bin/gazebo --version
@@ -36,7 +36,7 @@ bash gazebo/scripts/install_harmonic_conda.sh
 
 ~~~bash
 set -euo pipefail
-bash "$HOME/桌面/onerobot_h1-gazebo/gazebo/scripts/open_demo.sh"
+bash "$HOME/桌面/onerobot_h1_gazebo/gazebo/scripts/open_demo.sh"
 ~~~
 
 菜单含义：
@@ -56,7 +56,7 @@ GUI success proves local load/render only（仅证明本地 load/render）：它
 
 ~~~bash
 set -euo pipefail
-cd "$HOME/桌面/onerobot_h1-gazebo"
+cd "$HOME/桌面/onerobot_h1_gazebo"
 env -u PYTHONPATH uv run --project gazebo python -m onerobotics_a1_gazebo.package --output dist/gazebo-fuel
 env -u PYTHONPATH uv run --project gazebo python -m onerobotics_a1_gazebo.validate dist/gazebo-fuel
 bash gazebo/scripts/check_harmonic.sh dist/gazebo-fuel
@@ -74,4 +74,4 @@ bash gazebo/scripts/run_smoke_tests.sh dist/gazebo-fuel gazebo/worlds
 - no sensors。
 - no invented dynamics or friction：没有来源的数据不会凭空补阻尼、摩擦或控制增益。
 
-当前 Gazebo 分支仅在本机且尚未 push；新 clone 没有这条 branch。需要代表组织审核缩略图、准备 manifest、交接安全客户端或执行 Fuel 后续复验的授权维护者，请阅读 [PUBLISHING.md](PUBLISHING.md)。
+Gazebo 集成已发布到 `uniquemelody/onerobot_h1_gazebo`，三个模型也已发布到 OneRobotics 的 Gazebo Fuel 账户。需要代表组织审核缩略图、准备 manifest、交接安全客户端或执行 Fuel 后续复验的授权维护者，请阅读 [PUBLISHING.md](PUBLISHING.md)。
